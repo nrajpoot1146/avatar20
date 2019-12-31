@@ -1,7 +1,7 @@
 $(document).ready(function () {
 	var home = new Home()
 	var section = new Section();
-	var contactUs = new ContactUs(section);
+	var contactUs = "";
 	home.navItem["contactUs"].click(function (e) {
 		navClose();
 		setTimeout(contactUs.open(), 200);
@@ -15,6 +15,19 @@ $(document).ready(function () {
 	});
 
 	home.solar.planet["contactus"].click(function (e) {
+		navClose();
+		$.ajax({
+			url : "contactus",
+			type : "get",
+			success : function(res){
+				section.update(res);
+				contactUs = new ContactUs(section);
+				contactUs.open();
+			}
+		});
+		home.close();
+	});
+	home.solar.planet["aboutus"].click(function (e) {
 		navClose();
 		contactUs.fadeIn(500);
 		home.close();

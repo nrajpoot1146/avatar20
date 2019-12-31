@@ -4,7 +4,7 @@ namespace core\rout;
 use lib\Rout;
 use core\Exceptions\_404_NOT_FOUND;
 
-include_once('Request.php');
+//include_once('Request.php');
 class handlerRout
 {
     private $request;
@@ -16,7 +16,6 @@ class handlerRout
     public function __construct(interfaces\IRequest $request)
     {
         $this->request = $request;
-        Rout::$ptr = $this;
     }
 
     public function __call($name, $args)
@@ -77,7 +76,7 @@ class handlerRout
 
     public function __destruct()
     {
-        $this->resolve();
+        //$this->resolve();
     }
 
     //serve to the client asset file like image,js,css and other media file

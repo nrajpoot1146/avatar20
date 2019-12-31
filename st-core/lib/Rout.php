@@ -9,7 +9,7 @@ class Rout{
 		self::$ptr->post($str,$fun);
 	}
 	static function resolve(){
-		self::$ptr->__destruct();
+		self::$ptr->resolve();
 	}
 }
 ?>

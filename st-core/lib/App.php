@@ -11,7 +11,7 @@ class App{
           return new Request;
      }
      function handle(IRequest $request){
-          $rout = new handlerRout($request);
+          Rout::$ptr = new handlerRout($request); 
           require_once(ROOT."routes/web.php");
      }
      function __destruct(){
