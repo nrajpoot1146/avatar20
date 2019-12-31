@@ -4,8 +4,8 @@
 <link rel="icon" href="asset/img/solar/solar-earth.gif" type="image/gif" sizes="16x16">
 <!--essential bootstrap style sheet-->
 <title>Avatar RecBanda (Beta)</title>
-<link rel="stylesheet" href="asset/css/all.css">
-<link rel="stylesheet" href="asset/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="asset/css/bootstrap.min.css">
 <script src="asset/js/jquery.min.js"></script>
 <script src="asset/js/popper.min.js"></script>

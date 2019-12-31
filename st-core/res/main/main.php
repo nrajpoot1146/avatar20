@@ -7,6 +7,9 @@
 
 <body>
 	<div id="particles-js" class="container-fluid"></div>
+	<div class="av-bg-logo anim-back-2d">
+
+	</div>
 	<div id="solar">
 		<div class="solar-bg"></div>
 		<div id="at-solar" class="anim-solarStart">
@@ -59,7 +62,7 @@
 				</div>
 			</div>
 			<div id="at">
-				<div class="planet" av-name="sun">
+				<div class="planet anim-rSun" av-name="sun">
 
 				</div>
 			</div>
@@ -190,14 +193,12 @@
 							<!-- Modal body -->
 							<div class="modal-body">
 								<div class="container-fluid">
-									<div class="row">
+									<div class="row row-center">
 										<div class="col-md-3 mycol">
-										</div>
-										<div class="col-md-2 mycol">
 											<div class="team-member">
 												<div class="member-photo">
-													<img class="img-responsive" src="asset/img/ext/arjaria.gif"
-														style="height: 235px">
+													<img class="img-responsive" src="asset/img/team/pm.png"
+														style="height: 300px">
 
 													<div class="mask">
 														<ul class="list-inline">
@@ -221,11 +222,11 @@
 												</div>
 											</div>
 										</div>
-										<div class="col-md-2 mycol">
+										<div class="col-md-3 mycol">
 											<div class="team-member">
 												<div class="member-photo">
 													<img class="img-responsive" src="asset/img/ext/deep.jpg"
-														style="height: 235px">
+														style="height: 300px">
 
 													<div class="mask">
 														<ul class="list-inline">
@@ -250,11 +251,11 @@
 												</div>
 											</div>
 										</div>
-										<div class="col-md-2 mycol">
+										<div class="col-md-3 mycol">
 											<div class="team-member">
 												<div class="member-photo">
 													<img class="img-responsive" src="asset/img/ext/abhijeet.jpg"
-														style="height: 235px">
+														style="height: 300px">
 
 													<div class="mask">
 														<ul class="list-inline">
@@ -305,14 +306,12 @@
 							<!-- Modal body -->
 							<div class="modal-body">
 								<div class="container-fluid">
-									<div class="row">
-										<div class="col-md-4 mycol">
-										</div>
-										<div class="col-md-2 mycol">
+									<div class="row row-center">
+										<div class="col-md-3 mycol">
 											<div class="team-member">
 												<div class="member-photo">
 													<img class="img-responsive" src="asset/img/ext/narendra.jpg"
-														style="height: 235px">
+														style="height: 300px">
 
 													<div class="mask">
 														<ul class="list-inline">
@@ -337,11 +336,11 @@
 												</div>
 											</div>
 										</div>
-										<div class="col-md-2 mycol">
+										<div class="col-md-3 mycol">
 											<div class="team-member">
 												<div class="member-photo">
 													<img class="img-responsive" src="asset/img/ext/utsav.png"
-														style="height: 235px">
+														style="height: 300px">
 
 													<div class="mask">
 														<ul class="list-inline">
@@ -390,14 +389,12 @@
 							<!-- Modal body -->
 							<div class="modal-body">
 								<div class="container-fluid">
-									<div class="row">
-										<div class="col-md-4 mycol">
-										</div>
-										<div class="col-md-2 mycol">
+									<div class="row row-center">
+										<div class="col-md-3 mycol">
 											<div class="team-member">
 												<div class="member-photo">
 													<img class="img-responsive" src="asset/img/ext/narendra.jpg"
-														style="height: 235px">
+														style="height: 300px">
 
 													<div class="mask">
 														<ul class="list-inline">
@@ -422,11 +419,11 @@
 												</div>
 											</div>
 										</div>
-										<div class="col-md-2 mycol">
+										<div class="col-md-3 mycol">
 											<div class="team-member">
 												<div class="member-photo">
 													<img class="img-responsive" src="asset/img/ext/utsav.png"
-														style="height: 235px">
+														style="height: 300px">
 
 													<div class="mask">
 														<ul class="list-inline">
@@ -476,14 +473,12 @@
 							<!-- Modal body -->
 							<div class="modal-body">
 								<div class="container-fluid">
-									<div class="row">
-										<div class="col-md-4 mycol">
-										</div>
-										<div class="col-md-2 mycol">
+									<div class="row row-center">
+										<div class="col-md-3 mycol">
 											<div class="team-member">
 												<div class="member-photo">
 													<img class="img-responsive" src="asset/img/ext/narendra.jpg"
-														style="height: 235px">
+														style="height: 300px">
 
 													<div class="mask">
 														<ul class="list-inline">
@@ -508,11 +503,11 @@
 												</div>
 											</div>
 										</div>
-										<div class="col-md-2 mycol">
+										<div class="col-md-3 mycol">
 											<div class="team-member">
 												<div class="member-photo">
 													<img class="img-responsive" src="asset/img/ext/utsav.png"
-														style="height: 235px">
+														style="height: 300px">
 
 													<div class="mask">
 														<ul class="list-inline">
@@ -562,14 +557,12 @@
 							<!-- Modal body -->
 							<div class="modal-body">
 								<div class="container-fluid">
-									<div class="row">
-										<div class="col-md-4 mycol">
-										</div>
-										<div class="col-md-2 mycol">
+									<div class="row row-center">
+										<div class="col-md-3 mycol">
 											<div class="team-member">
 												<div class="member-photo">
 													<img class="img-responsive" src="asset/img/ext/narendra.jpg"
-														style="height: 235px">
+														style="height: 300px">
 
 													<div class="mask">
 														<ul class="list-inline">
@@ -594,11 +587,11 @@
 												</div>
 											</div>
 										</div>
-										<div class="col-md-2 mycol">
+										<div class="col-md-3 mycol">
 											<div class="team-member">
 												<div class="member-photo">
 													<img class="img-responsive" src="asset/img/ext/utsav.png"
-														style="height: 235px">
+														style="height: 300px">
 
 													<div class="mask">
 														<ul class="list-inline">
@@ -648,14 +641,12 @@
 							<!-- Modal body -->
 							<div class="modal-body">
 								<div class="container-fluid">
-									<div class="row">
-										<div class="col-md-4 mycol">
-										</div>
-										<div class="col-md-2 mycol">
+									<div class="row row-center">
+										<div class="col-md-3 mycol">
 											<div class="team-member">
 												<div class="member-photo">
 													<img class="img-responsive" src="asset/img/ext/narendra.jpg"
-														style="height: 235px">
+														style="height: 300px">
 
 													<div class="mask">
 														<ul class="list-inline">
@@ -680,11 +671,11 @@
 												</div>
 											</div>
 										</div>
-										<div class="col-md-2 mycol">
+										<div class="col-md-3 mycol">
 											<div class="team-member">
 												<div class="member-photo">
 													<img class="img-responsive" src="asset/img/ext/utsav.png"
-														style="height: 235px">
+														style="height: 300px">
 
 													<div class="mask">
 														<ul class="list-inline">
