@@ -8,25 +8,25 @@ Rout::get("/", function ($arg) {
     View::render("main/main");
 });
 
-Rout::get("/contactus", function ($arg) {
-    //View::render("main/login");
+Rout::set("/contactus", function ($arg) {
     try {
-         if(!isAjaxRequest()){
-              throw new _404_NOT_FOUND;
-         }
-         View::render("main/contactus");
+        if (!isAjaxRequest()) {
+            throw new _404_NOT_FOUND;
+        }
+        View::render("main/contactus");
     } catch (\Exception $e) {
-         $e->errorMessage();
+        $e->errorMessage();
     }
 });
 
-Rout::get("/register", function ($arg) {
-    $var = $arg["var"];
-    if (count($var)==1) {
-        View::render("main/register");
-    } elseif ($var[1]=="submit") {
-        JS::console("log", "hi");
-        header('Refresh: 3; URL='.HOST);
+Rout::get("/events", function ($arg) {
+    try {
+        if (!isAjaxRequest()) {
+            throw new _404_NOT_FOUND;
+        }
+        View::render("main/events");
+    } catch (\Exception $e) {
+        $e->errorMessage();
     }
 });
 
@@ -63,8 +63,10 @@ function islogin()
     }
     return false;
 }
-function isAjaxRequest(){
-     if(!empty($_SERVER["HTTP_X_REQUESTED_WITH"]) && $_SERVER["HTTP_X_REQUESTED_WITH"]=="XMLHttpRequest")
-          return true;
-     return false;
+function isAjaxRequest()
+{
+    if (!empty($_SERVER["HTTP_X_REQUESTED_WITH"]) && $_SERVER["HTTP_X_REQUESTED_WITH"]=="XMLHttpRequest") {
+        return true;
+    }
+    return false;
 }

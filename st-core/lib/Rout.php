@@ -8,6 +8,12 @@ class Rout{
 	static function post($str,$fun){
 		self::$ptr->post($str,$fun);
 	}
+	static function put($str,$fun){
+		self::$ptr->put($str,$fun);
+	}
+	static function set($str,$fun){
+		self::$ptr->set($str,$fun);
+	}
 	static function resolve(){
 		self::$ptr->resolve();
 	}

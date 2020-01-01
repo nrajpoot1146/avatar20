@@ -76,8 +76,8 @@
 	<nav id="mainnav">
 		<ul>
 			<li><a class="nav-item">HOME</a></li>
-			<li><a class="nav-item">GALLERY</a></li>
 			<li><a class="nav-item">EVENTS</a></li>
+			<li><a class="nav-item">WORKSHOPS</a></li>
 			<li><a class="nav-item">CONTACT US</a></li>
 			<li><a class="nav-item">ABOUT US</a></li>
 		</ul>
@@ -94,7 +94,7 @@
 			</a>
 		</div>
 		<div class="cnt scroll">
-			
+
 		</div>
 	</div>
 

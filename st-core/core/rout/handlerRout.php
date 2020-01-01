@@ -10,7 +10,9 @@ class handlerRout
     private $request;
     private $supportedHttpMethods = array(
         "GET",
-        "POST"
+        "POST",
+        "PUT",
+        "SET"
     );
 
     public function __construct(interfaces\IRequest $request)
