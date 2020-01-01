@@ -61,7 +61,6 @@ $(document).ready(function() {
           countdown: true
      });
 
-
      var w = window.innerWidth,
           h = window.innerHeight,
           canvas = document.getElementById('bubble'),

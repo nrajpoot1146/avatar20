@@ -14,7 +14,6 @@
 <script type="text/javascript" src="asset/js/avApp.js"></script>
 <script type="text/javascript" src="asset/js/flipclock.min.js"></script>
 <script type="text/javascript" src="asset/js/notify.min.js"></script>
-
 <!--custom style sheet-->
 <link rel="stylesheet" type="text/css" href="asset/css/av-style.css">
 <link rel="stylesheet" type="text/css" href="asset/css/flipclock.css">

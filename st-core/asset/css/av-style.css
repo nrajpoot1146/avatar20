@@ -14,6 +14,8 @@ body {
      -ms-user-select: none;
      /* Internet Explorer/Edge */
      user-select: none;
+     font-family: 'Times New Roman', Times, serif;
+     letter-spacing: 1px;
 }
 
 #particles-js {
