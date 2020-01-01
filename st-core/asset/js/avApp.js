@@ -200,6 +200,7 @@ class Events extends Item {
                     temp.eventsModal[obj].close();
                }
           });
+
           this.eventCat["eventcat2"].click(function() {
                temp.quotes.close();
                for (let obj in temp.eventsModal) {
@@ -210,6 +211,7 @@ class Events extends Item {
                     temp.eventsModal[obj].close();
                }
           });
+
           this.eventCat["eventcat3"].click(function() {
                temp.quotes.close();
                for (let obj in temp.eventsModal) {
@@ -220,6 +222,7 @@ class Events extends Item {
                     temp.eventsModal[obj].close();
                }
           });
+
           this.eventCat["eventcat4"].click(function() {
                temp.quotes.close();
                for (let obj in temp.eventsModal) {
@@ -230,6 +233,7 @@ class Events extends Item {
                     temp.eventsModal[obj].close();
                }
           });
+
           this.eventCat["eventcat5"].click(function() {
                temp.quotes.close();
                for (let obj in temp.eventsModal) {
@@ -285,6 +289,8 @@ function genAjax(url, method, dataVar, func) {
      $.ajax(settings)
           .done(func)
           .fail(function() {
-               alert("server not responding");
+               $.notify("Please check your internet connection.",{
+                    "status" :"success"
+               });
           });
 }

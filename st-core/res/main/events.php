@@ -4,10 +4,7 @@
  <div class="row myrow1">
    <div class="col mycol">
      <!-- <h5 style="color:white">Event Heading</h5> -->
-     <h2
-       class="eventContent"style="color:white;text-align: center;position: absolute; top: 50%;left: 50%;transform: translate(-50%,-50%);">
-       content goes here...
-     </h2>
+     <h2 class="eventContent"style="color:white;text-align: center;position: absolute; top: 50%;left: 50%;transform: translate(-50%,-50%);">It is hard to fail, but it is worse never to have tried to succeed.</h2>
      <!-- ---------------------------------------------- -->
      <div class="events" style="display: none;" av-name="eventcat1">
        <h6>
