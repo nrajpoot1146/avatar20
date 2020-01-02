@@ -78,7 +78,7 @@
      </div>
 </div>
 
-<div>
+<div class="container">
      <!-------------------------------------------------------Executive Heads------------------------------------------->
      <!-- Executive Heads -->
      <div class="modal fade" id="executiveModal" data-keyboard="false" data-backdrop="static">

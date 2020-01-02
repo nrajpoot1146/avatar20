@@ -20,7 +20,7 @@
 	</div>
 	<!------------------------------------------------------------------------------------->
 </div>
-<div class="loader fadeIn">
+<div class="loader">
 	<div style=" position: absolute; top: 42%; left: 48.5%; transform: translate(-50%,-50%);">
 		<i class='layer'></i>
 		<i class='layer'></i>
