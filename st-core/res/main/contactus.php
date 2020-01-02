@@ -1,4 +1,4 @@
-<div class="container mycontainer" id="contactus" style="display: none;">
+<div class="container mycontainer  fadeIn" id="contactus" style="display: none;">
      <div class="row myrow">
           <div class="col-md-2"></div>
           <div class="col-md-2 mycol pt-4 pb-4">

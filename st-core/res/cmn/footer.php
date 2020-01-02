@@ -11,8 +11,7 @@
 		<a class="btn" target="_blank" href="https://www.twitter.com/avatar_recbanda">
 			<i class="fa fa-twitter"></i>
 		</a>
-		<a class="btn" target="_blank"
-			href="https://www.youtube.com/channel/UCnDez3WnNe476CAjisiWGzQ?view_as=subscriber">
+		<a class="btn" target="_blank" href="https://www.youtube.com/channel/UCnDez3WnNe476CAjisiWGzQ?view_as=subscriber">
 			<i class="fa fa-youtube"></i>
 		</a>
 		<a class="btn" target="_blank" href="https://www.linkedin.com/in/AvatarRecBanda">
@@ -20,6 +19,13 @@
 		</a>
 	</div>
 	<!------------------------------------------------------------------------------------->
+</div>
+<div class="loader fadeIn">
+	<div style=" position: absolute; top: 42%; left: 48.5%; transform: translate(-50%,-50%);">
+		<i class='layer'></i>
+		<i class='layer'></i>
+		<i class='layer'></i>
+	</div>
 </div>
 
 <audio id="av-audio">

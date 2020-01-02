@@ -1,6 +1,7 @@
 $(document).ready(function() {
-     var home = new Home()
      var section = new Section();
+     var home = new Home(section);
+     window.loader = new Item(_(".loader")[0]);
 
      ContactUs.load = function() {
           genAjax("contactus", "set", "", function(res) {
@@ -8,6 +9,7 @@ $(document).ready(function() {
                window.contactUs = new ContactUs(section);
                contactUs.open();
                home.close();
+               window.loader.close();
           });
      };
      Events.load = function() {
@@ -16,13 +18,13 @@ $(document).ready(function() {
                window.events = new Events(section);
                events.open();
                home.close();
+               window.loader.close();
           });
      };
 
      home.navItem["home"].click(function() {
           navClose();
           home.open();
-          section.close();
      });
      home.navItem["contactUs"].click(function(e) {
           navClose();
@@ -44,7 +46,6 @@ $(document).ready(function() {
      new Item(_(".homeOpen")[0]).click(function() {
           navClose();
           home.open();
-          section.close();
      });
 
      var currentDate = new Date();
@@ -183,5 +184,9 @@ $(document).ready(function() {
                     .fadeIn();
           });
      };
-
+     $("body").ready(function() {
+          $("body").show();
+          $("html").show();
+          particleShow();
+     });
 });

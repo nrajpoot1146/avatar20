@@ -2,15 +2,17 @@
 <html lang="en">
 
 <head>
+
 	{{head}}
 </head>
 
-<body>
+<body class="body">
 	<div id="particles-js" class="container-fluid"></div>
 	<div class="av-bg-logo anim-back-2d">
 
 	</div>
-	<div id="solar">
+
+	<div id="solar" class="fadeIn">
 		<div class="solar-bg"></div>
 		<div id="at-solar" class="anim-solarStart">
 			<div id="solar-events" class="anim-rClock orbit">

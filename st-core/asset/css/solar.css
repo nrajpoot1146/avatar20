@@ -219,12 +219,14 @@
 }
 
 .anim-solarStart {
-     animation: solarStart 1s linear 0s 1 normal;
+     animation: solarStart .5s linear 0s 1 normal;
 }
-.anim-rSun{
+
+.anim-rSun {
      animation: rSun 40s linear 0s infinite normal;
 }
-.anim-back-2d{
+
+.anim-back-2d {
      animation: back-2d 40s linear 0s infinite normal;
 }
 
@@ -269,6 +271,7 @@
           transform: translate(-50%, -50%) rotateZ(360deg) rotateY(0deg) rotateX(-80deg);
      }
 }
+
 @keyframes rSun {
      from {
           transform: translate(0%, 0%) rotateZ(0deg) rotateY(360deg) rotateX(-90deg);
@@ -278,13 +281,14 @@
           transform: translate(0%, 0%) rotateZ(0deg) rotateY(0deg) rotateX(-90deg);
      }
 }
+
 @keyframes back-2d {
      from {
-          transform: translate(-50%,-50%) rotateZ(0deg);
+          transform: translate(-50%, -50%) rotateZ(0deg);
      }
 
      to {
-          transform: translate(-50%,-50%) rotateZ(-360deg);
+          transform: translate(-50%, -50%) rotateZ(-360deg);
      }
 }
 
@@ -341,7 +345,6 @@
           /* LEFT */
      }
 }
-
 
 /* ---------------------------------End Animation Keyframes-------------------------- */
 dl.infos {

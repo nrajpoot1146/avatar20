@@ -14,7 +14,7 @@ class Click {
 }
 
 class Item extends Click {
-     static load = "";
+     //static load = "";
      constructor(obj) {
           super();
           this.obj = obj;
@@ -28,16 +28,18 @@ class Item extends Click {
 }
 
 class Home {
-     constructor() {
+     constructor(section) {
           var nav = document.getElementsByClassName("nav-item");
           this.navItem = {};
           for (let i = 0; i < nav.length; i++) {
                this.navItem[nav[i].innerHTML.toCamelCase()] = new Item(nav[i]);
           }
           this.solar = new Solars();
+          this.section = section;
           this.solar.show();
      }
      open() {
+          this.section.close();
           this.solar.show();
           this.countShow();
      }
@@ -286,11 +288,12 @@ function genAjax(url, method, dataVar, func) {
                "cache-control": "no-cache"
           }
      }
+     window.loader.open();
      $.ajax(settings)
           .done(func)
           .fail(function() {
-               $.notify("Please check your internet connection.",{
-                    "status" :"success"
+               $.notify("Please check your internet connection.", {
+                    "status": "success"
                });
           });
 }
