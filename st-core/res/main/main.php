@@ -2,15 +2,12 @@
 <html lang="en">
 
 <head>
-
 	{{head}}
 </head>
 
 <body class="body">
 	<div id="particles-js" class="container-fluid"></div>
-	<div class="av-bg-logo anim-back-2d">
-
-	</div>
+	<div class="av-bg-logo anim-back-2d"></div>
 
 	<div id="solar" class="fadeIn">
 		<div class="solar-bg"></div>
@@ -88,7 +85,6 @@
 	<div class="hamb">
 		<a><i class="fa fa-bars"></i></a>
 	</div>
-
 	<div id="av-section">
 		<div style="position: fixed; top: 1%; left: 50%; transform: translate(-50%,0); display: block;">
 			<a class="homeOpen csr-pointer" style=" display: inline-block; color: #1cb096; font-size: 30px;">
