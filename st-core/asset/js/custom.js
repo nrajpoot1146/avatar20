@@ -2,6 +2,7 @@ $(document).ready(function() {
      var section = new Section();
      var home = new Home(section);
      window.loader = new Item(_(".loader")[0]);
+     window.topLogo = new TopLogo();
 
      ContactUs.load = function() {
           genAjax("contactus", "set", "", function(res) {

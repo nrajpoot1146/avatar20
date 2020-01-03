@@ -8,7 +8,9 @@
 <body class="body">
 	<div id="particles-js" class="container-fluid"></div>
 	<div class="av-bg-logo anim-back-2d"></div>
-
+	<div class="mycontainer" id="top-logo" style="top:1px; transform: translate(-50%,0); width: 291px; height: 66px;">
+		<img src="asset/img/ext/avatar.png" width="100%" height="100%"/>
+	</div>
 	<div id="solar" class="fadeIn">
 		<div class="solar-bg"></div>
 		<div id="at-solar" class="anim-solarStart">

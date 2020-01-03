@@ -42,10 +42,12 @@ class Home {
           this.section.close();
           this.solar.show();
           this.countShow();
+          window.topLogo.moveCenter();
      }
      close() {
           this.solar.hide();
           this.countHide();
+          window.topLogo.moveRight();
      }
      countHide() {
           $(".clock").hide();
@@ -254,6 +256,19 @@ class Events extends Item {
      close() {
           super.close();
           this.section.close();
+     }
+}
+
+class TopLogo extends Item{
+     constructor(){
+          super();
+          this.obj = _("#top-logo");
+     }
+     moveRight(){
+          this.obj.style="top:1px; transform: translate(0,0); width: 291px; height: 66px; left: auto; right: 0;";
+     }
+     moveCenter(){
+          this.obj.style="top:1px; transform: translate(-50%,0); width: 291px; height: 66px;";
      }
 }
 

@@ -7,32 +7,31 @@
      <h2 class="eventContent"style="color:white;text-align: center;position: absolute; top: 50%;left: 50%;transform: translate(-50%,-50%);">It is hard to fail, but it is worse never to have tried to succeed. <br><i style="margin: 5px;font-size: 16px; display:block; width: 100%; text-align:right;">-Theodore Roosevelt</i></h2>
      <!-- ---------------------------------------------- -->
      <div class="events fadeIn" style="display: none;" av-name="eventcat1">
-       <h6>
-            first column content
-       </h6>
+     <h6>
+     </h6>
        <div class="container-fluid maingridabsolute">
          <div class="row row-centered maingridabsolute">
            <div class="col-md-2 col-centered">
              <div class="eventitem A">
-               <img src="asset/img/ext/robotics.jpg" alt="robotics">
+               <img src="asset/img/ext/robowar.jpg" alt="robotics">
                A
              </div>
            </div>
            <div class="col-md-2 col-centered">
              <div class="eventitem">
-               <img src="asset/img/ext/robotics.jpg" alt="robotics">
+               <img src="asset/img/ext/lfr.jpg" alt="robotics">
                B
              </div>
            </div>
            <div class="col-md-2 col-centered">
              <div class="eventitem">
-               <img src="asset/img/ext/robotics.jpg" alt="robotics">
+               <img src="asset/img/ext/roborace.jpg" alt="robotics">
                C
              </div>
            </div>
            <div class="col-md-2 col-centered">
              <div class="eventitem">
-               <img src="asset/img/ext/robotics.jpg" alt="robotics">
+               <img src="asset/img/ext/pickandplace.jpg" alt="robotics">
                D
              </div>
            </div>
@@ -42,7 +41,6 @@
      <!-- ---------------------------------------------- -->
      <div class="events fadeIn" style="display: none;" av-name="eventcat2">
        <h6>
-         second column content
        </h6>
        <div class="container-fluid maingridabsolute">
          <div class="row row-centered maingridabsolute">
@@ -76,7 +74,6 @@
      <!-- ------------------------------------------------------ -->
      <div class="events fadeIn" style="display: none;" av-name="eventcat3">
        <h6>
-         third column content
        </h6>
        <div class="container-fluid maingridabsolute">
          <div class="row row-centered maingridabsolute">
@@ -110,7 +107,6 @@
      <!-- ------------------------------------------------ -->
      <div class="events fadeIn" style="display: none;" av-name="eventcat4">
        <h6>
-         fourth column content
        </h6>
        <div class="container-fluid maingridabsolute">
          <div class="row row-centered maingridabsolute">
@@ -144,7 +140,6 @@
      <!-- ---------------------------------------------- -->
      <div class="events fadeIn" style="display: none;" av-name="eventcat5">
        <h6>
-         fifth column content
        </h6>
        <div class="container-fluid maingridabsolute">
          <div class="row row-centered maingridabsolute">
@@ -185,7 +180,7 @@
      <div type="button" class="eventcolumn" av-name="eventcat1">
        <div class="firstcolumn eventcolumn-item">
          <div style="background-color: rgba(0,0,0,.3); height: 100%;">
-           <h5>first column</h5>
+           <h5>Robotech</h5>
          </div>
        </div>
      </div>
@@ -194,7 +189,7 @@
      <div type="button" class="eventcolumn" av-name="eventcat2">
        <div class="secondcolumn eventcolumn-item">
          <div style="background-color: rgba(0,0,0,.3); height: 100%;">
-           <h5>second column</h5>
+           <h5>Gaming</h5>
          </div>
        </div>
      </div>
@@ -203,7 +198,7 @@
      <div type="button" class="eventcolumn" av-name="eventcat3">
        <div class="thirdcolumn eventcolumn-item">
          <div style="background-color: rgba(0,0,0,.3); height: 100%;">
-           <h5>third column</h5>
+           <h5>IT Events</h5>
          </div>
        </div>
      </div>
@@ -212,7 +207,7 @@
      <div type="button" class="eventcolumn" av-name="eventcat4">
        <div class="fourthcolumn eventcolumn-item">
          <div style="background-color: rgba(0,0,0,.3); height: 100%;">
-           <h5>fourth column</h5>
+           <h5>ME Events</h5>
          </div>
        </div>
      </div>
@@ -221,7 +216,7 @@
      <div type="button" class="eventcolumn" av-name="eventcat5">
        <div class="fifthcolumn eventcolumn-item">
          <div style="background-color: rgba(0,0,0,.3); height: 100%;">
-           <h5>fifth column</h5>
+           <h5>EE Events</h5>
          </div>
        </div>
      </div>

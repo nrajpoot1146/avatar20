@@ -14,7 +14,7 @@
 		<a class="btn" target="_blank" href="https://www.youtube.com/channel/UCnDez3WnNe476CAjisiWGzQ?view_as=subscriber">
 			<i class="fa fa-youtube"></i>
 		</a>
-		<a class="btn" target="_blank" href="https://www.linkedin.com/in/AvatarRecBanda">
+		<a class="btn" target="_blank" href="https://www.linkedin.com/company/avatarrecbanda">
 			<i class="fa fa-linkedin"></i>
 		</a>
 	</div>
